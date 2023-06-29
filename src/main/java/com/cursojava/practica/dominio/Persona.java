@@ -16,7 +16,8 @@ public class Persona {
     @Column(name="alive")
     private boolean alive;
 
-
+    //anadimos constructor vacio
+    public Persona(){}
     
     public Persona(String id, String name, int age)
     {
